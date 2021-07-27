@@ -1,0 +1,109 @@
+.wrapper {
+  width: 70%;
+  height: 500px;
+  border: 1px solid #000;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+.wrapper__row1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.wrapper__row2 {
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper__row3 {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 30px;
+  border: 1px solid #000;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.row2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row2__col1 img {
+  width: 300px;
+}
+
+.row2__col2 {
+  margin: 0px 0px 0px 60px;
+  border: 1px solid #000;
+}
+
+.col2__row1 {
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 30px 0px;
+}
+
+.col2__row2 {
+  border: 1px solid #000;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.amount__col2 {
+  margin: 0px 0px 0px 20px;
+}
+
+.price__col2 {
+  margin: 0px 0px 0px 20px;
+}
+
+.wrapper__row6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row0 {
+  text-align: left;
+}
+
+.row0__col1 {
+  width: 120px;
+}
+
+.row0__col3 {
+  width: 60px;
+}
+
+.feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feed__text {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.feed__rate {
+  font-size: 30px;
+}

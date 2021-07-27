@@ -1,0 +1,108 @@
+.wrapper {
+  width: 70%;
+  height: 500px;
+  border: 1px solid #000;
+  margin: 0px auto;
+  margin-top: 30px;
+
+  &__row1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  &__row2 {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+  }
+
+  &__row3 {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+    border: 1px solid #000;
+    width: 60%;
+    margin-top: 20px;
+  }
+}
+.row2 {
+  justify-content: center;
+  &__col1 {
+    img {
+      width: 300px;
+    }
+  }
+
+  &__col2 {
+    margin: 0px 0px 0px 60px;
+    border: 1px solid #000;
+  }
+}
+.col2 {
+  &__row1 {
+    font-size: 30px;
+    display: flex;
+    margin: 0px 0px 30px 0px;
+  }
+
+  &__row2 {
+    border: 1px solid #000;
+    font-size: 30px;
+    display: flex;
+  }
+}
+.row1 {
+  &__col1 {
+  }
+
+  &__col2 {
+  }
+}
+
+.amount {
+  &__col1 {
+  }
+  &__col2 {
+    margin: 0px 0px 0px 20px;
+  }
+}
+.price {
+  &__col1 {
+  }
+  &__col2 {
+    margin: 0px 0px 0px 20px;
+  }
+}
+
+.wrapper {
+  &__row6 {
+    display: flex;
+  }
+}
+.row0 {
+  text-align: left;
+  &__col1 {
+    width: 120px;
+  }
+
+  &__col2 {
+  }
+  &__col3 {
+    width: 60px;
+  }
+}
+
+.feed {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  &__text {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  &__rate {
+    font-size: 30px;
+  }
+}

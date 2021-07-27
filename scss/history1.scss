@@ -1,0 +1,133 @@
+.pocket {
+    border: 1px solid #000;
+    margin: 20px 0px 20px 0px;
+    min-height: 100px;
+    &__row1 {
+        margin-top: 20px;
+        display: flex;
+        button {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    }
+    &__row2 {
+        // height: 100px;
+        border: 3px solid rgb(153, 56, 56);
+    }
+    &__row3 {
+        border: 3px solid rgb(22, 41, 216);
+        height: 100px;
+        display: none;
+    }
+}
+.info {
+    margin: 0px 0px 0px 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.col {
+    width: 20%;
+}
+.status {
+    margin: 40px 0px 0px 0px;
+    font-size: 20px;
+}
+.m-pocket {
+    &__row1 {
+        display: flex;
+        margin: 40px 0px 0px 0px;
+        button {
+            font-size: 20px;
+        }
+        div {
+            margin-right: 10px;
+        }
+    }
+
+    &__row2 {
+        display: flex;
+        border: 1px solid rgb(22, 230, 91);
+        align-items: center;
+
+        .col0 {
+            width: 100%;
+        }
+        .coll {
+            border: 1px solid #000;
+            display: flex;
+            margin: 0px 0px 0px 0px;
+            button {
+                font-size: 20px;
+            }
+            div {
+                margin: 0px 20px 0px 0px;
+            }
+            form {
+                display: inline;
+            }
+            .bt1 {
+            }
+            .bt2 {
+            }
+            .bt3 {
+            }
+        }
+    }
+}
+.col1 {
+    // min-height: 50px;
+    border: 1px solid rgb(211, 22, 22);
+    .wrap {
+        div {
+            margin-right: 20px;
+            border: 1px solid #000;
+        }
+        font-size: 20px;
+        display: flex;
+        margin: 10px;
+    }
+}
+.col2 {
+    // min-height: 100px;
+    display: none;
+    border: 1px solid rgb(54, 226, 11);
+    .wrap {
+        div {
+            margin-right: 20px;
+            border: 1px solid #000;
+        }
+        font-size: 20px;
+        display: flex;
+        margin: 10px;
+        button {
+            font-size: 20px;
+        }
+    }
+}
+.col3 {
+    // min-height: 100px;
+    display: none;
+    border: 1px solid rgb(52, 21, 228);
+    .wrap {
+        div {
+            margin-right: 20px;
+            border: 1px solid #000;
+        }
+        font-size: 20px;
+        display: flex;
+        margin: 10px;
+        button {
+            font-size: 20px;
+        }
+    }
+}
+.stat-row1 {
+    display: flex;
+    // width: 300px;
+    // height: 100px;
+    border: 1px solid rgb(187, 17, 17);
+}

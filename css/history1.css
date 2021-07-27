@@ -1,0 +1,167 @@
+.pocket {
+  border: 1px solid #000;
+  margin: 20px 0px 20px 0px;
+  min-height: 100px;
+}
+
+.pocket__row1 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pocket__row1 button {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.pocket__row2 {
+  border: 3px solid #993838;
+}
+
+.pocket__row3 {
+  border: 3px solid #1629d8;
+  height: 100px;
+  display: none;
+}
+
+.info {
+  margin: 0px 0px 0px 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col {
+  width: 20%;
+}
+
+.status {
+  margin: 40px 0px 0px 0px;
+  font-size: 20px;
+}
+
+.m-pocket__row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 0px 0px 0px;
+}
+
+.m-pocket__row1 button {
+  font-size: 20px;
+}
+
+.m-pocket__row1 div {
+  margin-right: 10px;
+}
+
+.m-pocket__row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #16e65b;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.m-pocket__row2 .col0 {
+  width: 100%;
+}
+
+.m-pocket__row2 .coll {
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 0px 0px;
+}
+
+.m-pocket__row2 .coll button {
+  font-size: 20px;
+}
+
+.m-pocket__row2 .coll div {
+  margin: 0px 20px 0px 0px;
+}
+
+.m-pocket__row2 .coll form {
+  display: inline;
+}
+
+.col1 {
+  border: 1px solid #d31616;
+}
+
+.col1 .wrap {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.col1 .wrap div {
+  margin-right: 20px;
+  border: 1px solid #000;
+}
+
+.col2 {
+  display: none;
+  border: 1px solid #36e20b;
+}
+
+.col2 .wrap {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.col2 .wrap div {
+  margin-right: 20px;
+  border: 1px solid #000;
+}
+
+.col2 .wrap button {
+  font-size: 20px;
+}
+
+.col3 {
+  display: none;
+  border: 1px solid #3415e4;
+}
+
+.col3 .wrap {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.col3 .wrap div {
+  margin-right: 20px;
+  border: 1px solid #000;
+}
+
+.col3 .wrap button {
+  font-size: 20px;
+}
+
+.stat-row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #bb1111;
+}
